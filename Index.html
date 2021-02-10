@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <img id="img-logo" src="img/logo.png" alt="imagen de muestra">
+    <div class="text1">
+        <h1>Bienvenidos</h1>
+    </div>
+    <div class="menu">
+        <a href= "nosotros.html">
+            <button class="btn-menu">Nosotros</button>
+        </a>
+
+        <a href="#">
+            <button class="btn-menu">Inicio</button>
+        </a>
+
+        <a href="#">
+            <button class="btn-menu">Cont&aacute;ctanos</button>
+        </a>
+
+        <a href="#/">
+            <button id="btn1" class="btn-menu" >Blog</button>
+        </a>
+
+        <a href="#/">
+            <button id="" class="btn-menu" onclick="modificarBoton()">Probar JS</button>
+        </a>
+    </div>
+
+    <script>
+      
+        
+        function modificarBoton() {
+            var button = document.getElementById ("btn1");
+            button.innerHTML="JavaScript";
+            button.style.backgroundColor = "#1B6FB5";
+        }
+
+        
+    </script>
+
+    
+</body>
+</html>
